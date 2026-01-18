@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/pulsevector_loop.gif" alt="PulseVector intro animation" width="800"/>
+</p>
+
 # PulseVector
 
 PulseVector is an experimental system exploring how decisions compound over time when made under real constraints.

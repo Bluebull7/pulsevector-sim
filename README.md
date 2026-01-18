@@ -6,8 +6,6 @@
 
 PulseVector is an experimental system exploring how decisions compound over time when made under real constraints.
 
-It uses finance and accounting as the surface layer, not as the objective.
-
 ---
 
 ## Context
@@ -21,9 +19,6 @@ PulseVector explores a different pattern:
 - constraints persist
 - trade-offs remain visible
 - consequences accumulate
-
-The system does not optimize or advise.
-It records.
 
 ---
 

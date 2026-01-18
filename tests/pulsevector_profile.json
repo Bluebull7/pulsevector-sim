@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "created_at": "2026-01-18T18:34:43.281293Z",
+    "theme": {
+      "primary": "tokyo_neon_green",
+      "accent": "purple"
+    }
+  },
+  "player": {
+    "name": "Prosperity",
+    "archetype": "accountant",
+    "scenario": "chicago_night",
+    "difficulty": "normal",
+    "stats_0_7": {
+      "Finance/Capital": 3,
+      "Accounting/Controls": 6,
+      "Excel/Tactics": 6,
+      "Forecasting/Modeling": 4,
+      "Risk/Underwriting": 4,
+      "Negotiation/Stakeholders": 4,
+      "Execution/Speed": 5
+    }
+  },
+  "start": {
+    "credit_score_0_1000": 710,
+    "debt_stress_0_100": 0
+  }
+}

@@ -1,5 +1,3 @@
-# pulsevector-sim
-
 # PulseVector Senior Ops Simulator
 
 **A CLI-based operations and finance simulation engine that trains both tactical execution (Excel-level work) and strategic judgment (CFO-level decision-making).**

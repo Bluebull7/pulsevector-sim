@@ -1,76 +1,80 @@
 # PulseVector
 
-PulseVector is an experimental system built around decision-making under constraint.
+PulseVector is an experimental system exploring how decisions compound over time when made under real constraints.
 
-It uses finance, accounting, and systems design as the medium, but not the objective.
+It uses finance and accounting as the surface layer, not as the objective.
 
 ---
 
-## Motivation
+## Context
 
-In many leadership and development settings, decisions are discussed more often than they are experienced.
+In many development and leadership environments, decisions are discussed abstractly.
 
-Outcomes are usually explained after the fact, or isolated from the conditions that produced them.
+Outcomes are explained after the fact, often separated from the structure that produced them.
 
-PulseVector explores a different approach:
-- decisions are made sequentially
+PulseVector explores a different pattern:
+- decisions occur sequentially
 - constraints persist
+- trade-offs remain visible
 - consequences accumulate
-- structure is not abstracted away
+
+The system does not optimize or advise.
+It records.
 
 ---
 
 ## Archetypes
 
-The entry point into the system is an archetype selection.
+The entry point into PulseVector is an archetype selection.
 
-Participants begin from a particular lens:
+Participants begin from a particular lens, such as:
 - banker
 - accountant
 - financial modeler
 - controller
 
-Each archetype reflects a set of tendencies:
-- what is noticed early
+Each archetype reflects tendencies rather than skills:
+- what is prioritized
 - what is deferred
 - how risk is interpreted
 - how pressure is handled
 
-No archetype is treated as neutral.
+No archetype is neutral.
 
 ---
 
 ## The Ledger
 
-All decisions ultimately resolve into a live accounting ledger.
+All actions ultimately resolve into a live accounting ledger.
 
-Cash, liabilities, timing, and recognition are not simulated as scores or hidden variables.
+Cash, obligations, timing, and recognition are not abstracted into scores.
 
-They are recorded directly.
+They are recorded directly using double-entry accounting.
 
-The ledger is not explained in advance.
+The ledger is not explained upfront.
 It is observed over time.
 
 ---
 
-## Use
+## Quickstart — Archetype Demo
 
-This project is being explored as a development and reflection tool.
+The archetype demo initializes a PulseVector operator profile.
+It is the first surface external users interact with.
 
-It may be relevant in contexts involving:
-- early leadership roles
-- student organizations
-- training environments
-- mentorship settings
+### Requirements
+- Python 3.10+
+- (Optional GUI) Tkinter  
+  - Included with Python on most macOS and Windows installations  
+  - Linux users may need to install `python3-tk`
 
-The emphasis is on observation and reflection rather than optimization.
+### Setup
 
----
+```bash
+git clone <your-repo-url>
+cd pulsevector
 
-## Status
-
-- Archetype initialization
-- Real ledger-backed actions
-- Scenario scaffolding in progress
-
-The system is incomplete by design.
+python -m venv .venv
+# macOS / Linux
+source .venv/bin/activate
+# Windows
+# .venv\Scripts\activate
